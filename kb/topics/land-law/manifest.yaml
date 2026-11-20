@@ -1,0 +1,38 @@
+slug: land-law
+name: Land Law
+aliases:
+- land law
+- land registration
+- easement
+- covenant
+- co-ownership
+- joint tenancy
+- severance
+- lease
+- licence
+- mortgage
+- overriding interest
+- proprietary estoppel
+- trusts of land
+- tolata
+- registered land
+- unregistered land
+- mortgaged
+- right of way
+- actual occupation
+- overreaching
+- adverse possession
+- freehold
+- leasehold
+jurisdiction:
+- UK
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-19'
+counts:
+  legislation: 35
+  case_law: 24
+  secondary: 24
+  textbook: 39
+  lecture: 86
+  journal: 95

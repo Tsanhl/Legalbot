@@ -1,0 +1,31 @@
+# --- environment / build ---
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# --- private: generated data, chat history, saved API keys, logs ---
+data/
+debug/logs/
+debug/issues/
+eval/runs/
+improvement/*
+!improvement/README.md
+!improvement/CHANGELOG.md
+review_queue/
+
+# --- private: personal data and your marked work ---
+kb/feedback/
+kb/questions/
+kb/guidance/
+kb/INGEST_REPORT.md
+
+# --- copyrighted study materials (textbooks, articles, lectures, cases) ---
+kb/topics/*/raw/
+
+# --- your own import setup (folder names, file lists, corrections): kept on this machine ---
+kb/topic_map.yaml
+kb/source_topics.yaml
+kb/source_types.yaml
+kb/topics/*/sources.local.yaml

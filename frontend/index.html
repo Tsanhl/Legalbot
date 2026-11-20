@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Legal bot</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+</head>
+<body>
+  <button id="menu-btn" class="round-btn" aria-label="Menu">
+    <svg viewBox="0 0 24 24" width="22" height="22"><path d="M4 7h16M4 12h11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <span id="conn" class="dot" title="Connection"></span>
+
+  <div id="scrim"></div>
+  <aside id="sidebar" class="drawer left">
+    <button id="new-chat" class="pill-btn">+ New chat</button>
+
+    <div class="side-title">Answer</div>
+    <label class="field">Type
+      <select id="opt-intent">
+        <option value="auto">Auto-detect</option>
+        <option value="essay">Essay</option>
+        <option value="problem_question">Problem question</option>
+        <option value="general">General / everyday</option>
+      </select>
+    </label>
+    <label class="field">Topic <select id="opt-topic"><option value="">Auto-route</option></select></label>
+    <label class="field">Model <select id="opt-provider"></select></label>
+    <label class="switch" title="On: answers only from the knowledge base. Off: background knowledge allowed, tagged [unverified].">
+      <input type="checkbox" id="opt-strict" /> <span>Knowledge base only (no background or web)</span>
+    </label>
+    <button id="open-settings" class="link-btn">Model settings…</button>
+
+    <div class="side-title">Improve</div>
+    <button id="fix-gaps" class="pill-btn">Fix knowledge gaps with Claude</button>
+    <div id="fix-status" class="muted small" style="margin-top:6px"></div>
+
+    <div class="side-title">Chats</div>
+    <ul id="sessions"></ul>
+
+    <div class="side-title">Knowledge base</div>
+    <ul id="topics"></ul>
+    <div id="kb-meta" class="muted small"></div>
+  </aside>
+
+  <aside id="panel" class="drawer right">
+    <div class="panel-head">
+      <nav class="tabs">
+        <button data-tab="sources" class="active">Sources</button>
+        <button data-tab="debug">Debug</button>
+        <button data-tab="traces">Logs</button>
+      </nav>
+      <button id="close-panel" class="x-btn" aria-label="Close">×</button>
+    </div>
+    <div id="tab-sources" class="tab active"><p class="muted">Sources for the selected answer appear here.</p></div>
+    <div id="tab-debug" class="tab"><p class="muted">Retrieval trace for the selected answer.</p></div>
+    <div id="tab-traces" class="tab"></div>
+  </aside>
+
+  <main id="main">
+    <section id="chat">
+      <div id="empty">
+        <h1>Hello there</h1>
+        <p>Ask a law question, paste an essay title or a problem question</p>
+      </div>
+    </section>
+
+    <div id="stage" class="muted small"></div>
+    <form id="composer">
+      <textarea id="input" rows="1" placeholder="Type a message…"></textarea>
+      <button type="submit" id="send" class="send-btn" aria-label="Send">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" id="stop" class="send-btn" aria-label="Stop" hidden>
+        <svg viewBox="0 0 24 24" width="16" height="16"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></svg>
+      </button>
+    </form>
+  </main>
+
+  <dialog id="settings-dlg">
+    <form method="dialog">
+      <h3>Model settings</h3>
+      <p class="muted small">
+        <b>claude_cli</b> / <b>codex_cli</b> use your Claude Code / Codex login on this Mac (no API key).<br />
+        <b>anthropic</b> uses the Claude API: paste a key or rely on <code>ANTHROPIC_API_KEY</code>.<br />
+        <b>mock</b> returns an extractive preview without calling any model.
+      </p>
+      <label>Provider <select id="set-provider"></select></label>
+      <label>Model override <input id="set-model" placeholder="blank = default from config.yaml" /></label>
+      <label>API key <input id="set-key" type="password" placeholder="only for anthropic" autocomplete="off" /></label>
+      <label class="toggle local-only"><input type="checkbox" id="set-remember" /> Remember key on this Mac (data/secrets.json)</label>
+      <p class="muted small public-only">On this public site your key is stored only in this browser and sent with your own questions. It is never saved on the server.</p>
+      <menu><button value="cancel" class="ghost">Cancel</button><button id="save-settings" value="ok" class="primary">Save</button></menu>
+    </form>
+  </dialog>
+
+  <dialog id="fb-dlg">
+    <form method="dialog">
+      <h3 id="fb-title">Feedback</h3>
+      <p class="muted small">Saved to <code>improvement/user_feedback/&lt;date&gt;/</code> with the question and answer, for the daily review.</p>
+      <label>What was good or wrong? (optional) <textarea id="fb-comment" rows="4" placeholder="e.g. missed Mickelsson; wrong section; structure fine but too descriptive"></textarea></label>
+      <menu><button value="cancel" class="ghost">Cancel</button><button id="fb-save" value="ok" class="primary">Save feedback</button></menu>
+    </form>
+  </dialog>
+
+  <dialog id="issue-dlg">
+    <form method="dialog">
+      <h3>Report a retrieval / answer issue</h3>
+      <p class="muted small">Saves the full trace to <code>debug/issues/&lt;date&gt;-&lt;FM&gt;-…/</code> for the debug playbook.</p>
+      <label>Failure mode <select id="issue-fm"></select></label>
+      <label>Expected source (optional) <input id="issue-expected" placeholder="e.g. competition-law/notes/art102.md#abuse" /></label>
+      <label>What went wrong <textarea id="issue-note" rows="4"></textarea></label>
+      <menu><button value="cancel" class="ghost">Cancel</button><button id="issue-save" value="ok" class="primary">File issue</button></menu>
+    </form>
+  </dialog>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

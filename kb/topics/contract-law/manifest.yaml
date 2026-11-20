@@ -1,0 +1,27 @@
+slug: contract-law
+name: Contract Law
+aliases:
+- contract
+- offer
+- acceptance
+- consideration
+- misrepresentation
+- frustration
+- breach
+- damages
+- exclusion clause
+- privity
+- promissory estoppel
+- terms
+jurisdiction:
+- UK
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-19'
+counts:
+  legislation: 6
+  case_law: 7
+  textbook: 48
+  journal: 1
+  secondary: 1
+  lecture: 16

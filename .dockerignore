@@ -1,0 +1,13 @@
+.venv/
+data/
+debug/logs/
+debug/issues/
+eval/runs/
+improvement/*
+!improvement/README.md
+kb/topics/*/raw/
+kb/feedback/
+kb/questions/
+kb/guidance/
+.git/
+__pycache__/

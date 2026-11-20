@@ -1,0 +1,25 @@
+slug: biolaw
+name: Biolaw
+aliases:
+- biolaw
+- bioethics
+- genetic
+- genome
+- embryo
+- hfea
+- gdpr health
+- biobank
+- gene editing
+jurisdiction:
+- UK
+- EU
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-19'
+counts:
+  legislation: 8
+  lecture: 77
+  journal: 96
+  secondary: 8
+  textbook: 11
+  case_law: 2

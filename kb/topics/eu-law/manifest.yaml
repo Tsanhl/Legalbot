@@ -1,0 +1,32 @@
+slug: eu-law
+name: EU Law (Internal Market)
+aliases:
+- eu law
+- internal market
+- free movement
+- free movement of goods
+- dassonville
+- cassis
+- keck
+- article 34
+- article 36
+- citizenship
+- services
+- establishment
+- workers
+- direct effect
+- supremacy
+- cjeu
+- preliminary reference
+jurisdiction:
+- EU
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-19'
+counts:
+  legislation: 6
+  secondary: 24
+  case_law: 56
+  lecture: 59
+  textbook: 10
+  journal: 52

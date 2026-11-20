@@ -1,0 +1,59 @@
+---
+title: Multinational companies and human rights litigation (Vedanta, Okpabi, Limbu)
+topic: private-international-law
+authority: notes
+written: 2026-11-18
+sources:
+  - raw/lecture/e-aristova-the-future-of-tort-litigation-against-transnational-corpora-58f5aa.md
+  - raw/lecture/r-meeran-multinational-human-rights-litigation-in-the-uk-2be180.md
+---
+# Multinational companies and human rights litigation (Vedanta, Okpabi, Limbu)
+
+## Overview
+Victims of harm caused by overseas operations of multinational groups (pollution, mining and oil damage, forced labour) have sued the English-domiciled parent company in England, because host-state remedies are weak or unaffordable. The private international law questions are: can the English court take jurisdiction over the parent and the foreign subsidiary, will it stay or decline in favour of the host state (forum non conveniens), and what law governs the claim. The substantive hook is a common law duty of care owed by the parent. the materials traces the Supreme Court's decisions in *Vedanta* and *Okpabi*, the effect of Brexit, and the recent Court of Appeal decision in *Limbu v Dyson*.
+
+## The law
+**1. Background (Meeran; seminar slides).** UK cases concern environmental harm, occupational disease, complicity in abuses by state security, corruption and child labour, mostly in mining, oil, agriculture and chemicals, in Africa and Latin America. Defendants are mainly parent companies, alleged to have caused harm through control, management or advice to local subsidiaries, or through failing to supervise when they publicly said they would. Host-state accountability was lax, which explains the turn to the home court. Overcoming the jurisdiction and corporate veil barriers has depended on a tort duty of care owed by the parent and on victims' access to justice. The slides also cite *Municipio de Mariana v BHP Group (UK) Ltd* [2025] EWHC 3001 (TCC), where the High Court found BHP liable under Brazilian law for the Fundao dam collapse.
+
+**2. Pre-Brexit jurisdictional structure (slides 22-23).**
+- Step one: the English-domiciled parent is sued as of right under Art 4(1) Recast Brussels I.
+- Step two: the foreign subsidiary is joined by service out under the "necessary or proper party" gateway (PD 6B para 3.1), which requires a real triable issue against the anchor defendant and that England is the proper place (CPR 6.37(3), Spiliada test). If no arguable claim lies against the parent, the claim against the subsidiary falls too.
+- *Owusu v Jackson* prevented English courts from staying proceedings against EU-domiciled defendants on forum non conveniens grounds, so the parent could not be stayed.
+
+**3. Post-Brexit.** Jurisdiction over the parent now rests on service within the jurisdiction at common law. The principal change is that the parent can seek a stay on forum non conveniens grounds in favour of the host state (*Spiliada* [1987] AC 460). The slides ask whether this re-opens a barrier for claimants.
+
+**4. Choice of law (Rome II as applied).** Rome II does not apply to non-contractual obligations in company law (Art 1(2)(d)), but a company's capacity to incur tort liability is governed by the Rome II applicable law (Recital 12; Art 15(1)(a)). The general rule is Art 4(1): law of the country where the damage occurs. For environmental damage, Art 7 lets the claimant choose the law of the country where the event giving rise to damage occurred. Art 17 requires local safety and conduct rules to be taken into account as a matter of fact. The result is usually host-state law; English law matters mainly where the host system follows English common law (Zambia, Tanzania, Nigeria), but little where the damage occurs in a civil law country.
+
+## Key authorities
+- *Vedanta Resources plc v Lungowe* [2019] UKSC 20: 1,826 Zambian villagers alleged toxic discharges from the Nchanga copper mine owned by KCM, a Zambian subsidiary of English-domiciled Vedanta. Appeal concerned jurisdiction only. The Supreme Court dismissed the appeal. Holdings, by issue:
+  - (1) No abuse of EU law in relying on Art 4(1) with KCM as necessary or proper party; the exceptions are construed narrowly and the claim against Vedanta had a genuine purpose.
+  - (2) Real triable issue against Vedanta: it depends on how far the parent availed itself of the opportunity to take over, intervene in, control, supervise or advise the subsidiary's management of the relevant operations; the relationship alone shows only opportunity (para 49). Parent liability is not a new special category (para 51). Group-wide policies can ground a duty if the parent actively implements them through training, supervision and enforcement, and failure to supervise contrary to its published proclamations may be a breach (para 53).
+  - (3) England as proper place: the judge erred by treating the risk of irreconcilable judgments as decisive after Vedanta offered to submit to Zambia; the Court adjusted the forum conveniens analysis to deal with the lack of FNC control caused by *Owusu* (para 40).
+  - (4) Substantial justice: even if Zambia were the proper place, there was a real risk claimants could not get substantial justice because of the impossibility of funding group claims by very poor claimants (no legal aid; conditional fee agreements unlawful) and the lack of suitably experienced legal teams. This made the defendants' success on (3) academic. The court also stressed proportionality in jurisdiction disputes (paras 6-14; cf. Lord Templeman in *Spiliada*).
+- *Okpabi v Royal Dutch Shell Plc* [2021] UKSC 3: Nigerian claimants (Ogale and Bille communities) alleged oil spills caused by SPDC, subsidiary of Royal Dutch Shell plc, and that RDS owed them a duty through control and assumed responsibility. High Court and Court of Appeal (majority, Sales LJ dissenting) found no arguable duty. The Supreme Court allowed the appeal: the Court of Appeal erred by conducting a mini-trial and not accepting pleaded facts unless demonstrably untrue or unsupportable; wrongly accepted a general principle that group-wide policies could never ground a duty; focused too narrowly on "control" when the question is how far the parent took over or shared management of the activity; and wrongly treated parent-company liability as a distinct category. Real issues to be tried were shown. The claims were remitted and jurisdiction was later conceded. The slides note continuing Nigerian-law proceedings (*Alame v Shell* decisions in 2023-2025) with a trial scheduled from March 2027 and fundamental-rights claims added under the Nigerian Constitution and African Charter.
+- *Limbu v Dyson Technology Ltd* [2024] EWCA Civ 1564: 24 Nepalese and Bangladeshi workers alleged forced labour in Malaysian factories in Dyson's supply chain; they sued English companies D1 and D2 (served as of right; stay sought) and a Malaysian company D3 (service out). The judge held Malaysia the more appropriate forum with no real risk to access to justice. The Court of Appeal disagreed on the facts: English domicile and as-of-right service favoured England; D1 and D2 were the principal protagonists and would coordinate the defence from England; parallel English defamation proceedings (since discontinued) overlapped; the defendants' costs undertakings were unprecedented but insufficient to fund disbursements; and, because of the huge imbalance between the poor claimants and well-resourced defendants, equality of arms favoured England.
+- *Connelly v RTZ Corp plc* [1998] AC 854 and *Lubbe v Cape plc* [2000] 1 WLR 1545: House of Lords retained jurisdiction though Namibia or South Africa was the natural forum, because funding and legal representation or expert evidence were unavailable there. Lord Hoffmann's dissent in *Connelly* (as quoted in the slides) objected that a rich claimant would be stayed while a poor one would not, and raised floodgates concerns.
+- *Owusu v Jackson* (CJEU): barred Brussels-regime stays.
+
+## Debate and critique
+- **Is Spiliada right for these cases? (slides 34-37).** Some scholars propose the Australian "clearly inappropriate forum" test (stay only for oppressive or vexatious proceedings) for certainty and efficiency. Critics of the Spiliada approach say courts look for the geographically closest forum and ignore the integrated structure of the multinational, including management of subsidiaries from England; in *Vedanta* the strongest English connection was the risk of irreconcilable judgments, a Brussels-driven factor.
+- **Parent's submission to the host court.** The parent may submit to the host state's jurisdiction after English proceedings begin, making the host court "available" and risking forum-shopping and uncertainty. Claimants carry the burden on the second limb of Spiliada with cogent evidence, a high threshold that involves comparative judgments about another state's legal system and risks offending comity (*Vedanta* para 11).
+- **Aristova.** Her article (Business and Human Rights Journal 2021) asks whether forum non conveniens is "back": the pre-Brexit framework let English courts take jurisdiction over parents without FNC control, but *Vedanta* signalled doubts that England is always the proper forum; she assesses the post-Brexit impact on victims and suggests reforms.
+- **Meeran.** A retrospective by a claimant lawyer (who discloses his firm acted in the key cases): litigation provides redress and deterrence, interacts with the business and human rights movement and the UN Guiding Principles, and faces legal, procedural and practical barriers.
+- **Choice of law.** Rome II usually directs to host-state law, which may limit duty-of-care reasoning to claims that depend on local law and standards; seminar questions ask whether the connecting factors are sufficient for human rights abuse claims. Even a successful jurisdiction ruling leaves breach, causation and damage to be proved (slide 21), where claimants may face the greatest difficulty.
+- **Fact-sensitivity.** The slides stress that the scope of parent liability is still unclear because few cases have reached merits trials.
+
+## Applying it to a problem question
+1. Duty: is there an arguable parent company duty? Ask how far the parent took over or shared management of the relevant activity, whether it issued group-wide policies and actively implemented them, and whether it publicly claimed oversight. Do not treat bare ownership or the issuing of policy as decisive either way.
+2. Jurisdiction over the parent (as of right via service, since Brexit) and over the subsidiary (necessary or proper party; good arguable case, real triable issue, proper place).
+3. At interlocutory stage accept pleaded facts unless demonstrably untrue (*Okpabi*); do not conduct a mini-trial.
+4. Forum non conveniens: apply Spiliada stage one (natural forum, connecting factors, coordination of litigation, location of conduct) and stage two (real risk of no substantial justice: funding, legal expertise, equality of arms). Offers of undertakings or submission to the host court matter but may not cure funding problems.
+5. Applicable law: Rome II Art 4(1) (place of damage), Art 7 (environmental damage option), Art 17 (local conduct rules). Identify whether host law is a common law system.
+6. Traps: confusing the jurisdictional stage with the merits; assuming control alone creates a duty; forgetting that Brexit removed the *Owusu* shield; ignoring poverty and funding evidence.
+
+## Links
+- forum-non-conveniens-spiliada.md
+- service-out-of-the-jurisdiction.md
+- common-law-jurisdiction-service-within.md
+- non-contractual-obligations-rome-ii.md
+- jurisdiction-conflicts-and-comity.md

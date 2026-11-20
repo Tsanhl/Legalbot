@@ -1,0 +1,42 @@
+slug: law-and-medicine
+name: Law and Medicine
+aliases:
+- medical law
+- consent
+- capacity
+- montgomery
+- bolam
+- end of life
+- assisted dying
+- transplantation
+- abortion
+- reproductive
+- clinical negligence
+- medical ethics
+- best interests
+- medical treatment
+- treatment
+- patient
+- doctor
+- one's body
+- bodily autonomy
+- refuse treatment
+- refusal of treatment
+- mental capacity act
+- advance decision
+- organ donation
+- euthanasia
+- embryo
+- ivf
+jurisdiction:
+- UK
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-19'
+counts:
+  case_law: 29
+  journal: 27
+  secondary: 4
+  textbook: 22
+  lecture: 49
+  legislation: 17
