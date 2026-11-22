@@ -1,0 +1,30 @@
+slug: business-law
+name: Business Law
+aliases:
+- company law
+- business law
+- directors duties
+- shareholder
+- corporate
+- limited company
+- sole trader
+- directors' duties
+- derivative claim
+- directors
+- board of directors
+- companies act
+- articles of association
+- model articles
+- unfair prejudice
+- wrongful trading
+- minority shareholder
+- insolvent company
+jurisdiction:
+- UK
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-24'
+counts:
+  legislation: 15
+  case_law: 1
+  textbook: 22

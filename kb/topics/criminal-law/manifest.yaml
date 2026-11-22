@@ -1,0 +1,41 @@
+slug: criminal-law
+name: Criminal Law
+aliases:
+- criminal
+- crime
+- murder
+- manslaughter
+- mens rea
+- actus reus
+- theft
+- fraud
+- assault
+- defence
+- loss of control
+- diminished responsibility
+- complicity
+- accessory
+- intention
+- recklessness
+- stealing
+- homicide defences
+- consent defence
+- non-fatal offences
+- oapa
+- sadomasochism
+- burglary
+- homicide
+- self-defence
+- r v brown
+- criminal liability
+jurisdiction:
+- UK
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-24'
+counts:
+  legislation: 25
+  case_law: 63
+  lecture: 102
+  secondary: 20
+  journal: 87

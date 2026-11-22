@@ -1,0 +1,434 @@
+# Copy to kb/topic_map.yaml and list, for each area of law, the sub-folders of YOUR materials folder (paths.law_root).
+# feedback_folders: where marked work lives (used for answer style, never as evidence). pii: text to scrub, but keep
+# real names in ~/.config/legalbot/pii.yaml instead.
+topics:
+  competition-law:
+    name: Competition Law
+    folders: []
+    aliases:
+    - competition
+    - antitrust
+    - article 101
+    - article 102
+    - cartel
+    - abuse of dominance
+    - dominant position
+    - competition act 1998
+    - merger
+    - cma
+    - google shopping
+    - big tech
+    - digital markets
+    jurisdiction:
+    - UK
+    - EU
+    - US
+  pensions-law:
+    name: Pensions Law
+    folders: []
+    aliases:
+    - pension
+    - pensions act
+    - occupational pension
+    - defined benefit
+    - defined contribution
+    - trustee
+    - pension scheme
+    - pensions regulator
+    - ppf
+    - scheme funding
+    - auto-enrolment
+    - section 37
+    jurisdiction:
+    - UK
+  private-international-law:
+    name: Private International Law
+    folders: []
+    aliases:
+    - conflict of laws
+    - private international law
+    - choice of law
+    - rome i
+    - rome ii
+    - brussels ia
+    - jurisdiction
+    - forum non conveniens
+    - anti-suit injunction
+    - recognition and enforcement
+    - hague convention
+    jurisdiction:
+    - UK
+    - EU
+  international-commercial-mediation:
+    name: International Commercial Mediation
+    folders: []
+    aliases:
+    - mediation
+    - singapore convention
+    - settlement agreement
+    - mediator
+    - adr
+    - uncitral
+    jurisdiction:
+    - International
+    - UK
+  law-and-medicine:
+    name: Law and Medicine
+    folders: []
+    aliases:
+    - medical law
+    - consent
+    - capacity
+    - montgomery
+    - bolam
+    - end of life
+    - assisted dying
+    - transplantation
+    - abortion
+    - reproductive
+    - clinical negligence
+    - medical ethics
+    - best interests
+    - medical treatment
+    - treatment
+    - patient
+    - doctor
+    - one's body
+    - bodily autonomy
+    - refuse treatment
+    - refusal of treatment
+    - mental capacity act
+    - advance decision
+    - organ donation
+    - euthanasia
+    - embryo
+    - ivf
+    jurisdiction:
+    - UK
+  commercial-law:
+    name: Commercial Law
+    folders: []
+    aliases:
+    - commercial law
+    - sale of goods
+    - sale of goods act
+    - consumer rights act
+    - passing of property
+    - risk
+    - nemo dat
+    - retention of title
+    - agency
+    - implied terms
+    - satisfactory quality
+    - consumer
+    - faulty goods
+    - defective
+    - refund
+    - repair or replacement
+    - short-term right to reject
+    jurisdiction:
+    - UK
+  trusts-law:
+    name: Trusts Law (Equity and Trusts)
+    folders: []
+    aliases:
+    - trust
+    - trusts
+    - equity
+    - quistclose
+    - certainty
+    - constructive trust
+    - resulting trust
+    - fiduciary
+    - breach of trust
+    - tracing
+    - charitable trust
+    - secret trust
+    - beneficiary
+    - knowing receipt
+    - dishonest assistance
+    - accessory liability
+    - recipient liability
+    - proprietary claim
+    - subrogation
+    - equitable compensation
+    - account of profits
+    - saunders v vautier
+    - purpose trust
+    jurisdiction:
+    - UK
+  tort-law:
+    name: Tort Law
+    folders: []
+    aliases:
+    - tort
+    - negligence
+    - duty of care
+    - nuisance
+    - occupiers liability
+    - psychiatric injury
+    - causation
+    - remoteness
+    - vicarious liability
+    - defamation
+    jurisdiction:
+    - UK
+  land-law:
+    name: Land Law
+    folders: []
+    aliases:
+    - land law
+    - land registration
+    - easement
+    - covenant
+    - co-ownership
+    - joint tenancy
+    - severance
+    - lease
+    - licence
+    - mortgage
+    - overriding interest
+    - proprietary estoppel
+    - trusts of land
+    - tolata
+    - registered land
+    - unregistered land
+    - mortgaged
+    - right of way
+    - actual occupation
+    - overreaching
+    - adverse possession
+    - freehold
+    - leasehold
+    jurisdiction:
+    - UK
+  criminal-law:
+    name: Criminal Law
+    folders: []
+    aliases:
+    - criminal
+    - crime
+    - murder
+    - manslaughter
+    - mens rea
+    - actus reus
+    - theft
+    - fraud
+    - assault
+    - defence
+    - loss of control
+    - diminished responsibility
+    - complicity
+    - accessory
+    - intention
+    - recklessness
+    jurisdiction:
+    - UK
+  contract-law:
+    name: Contract Law
+    folders: []
+    aliases:
+    - contract
+    - offer
+    - acceptance
+    - consideration
+    - misrepresentation
+    - frustration
+    - breach
+    - damages
+    - exclusion clause
+    - privity
+    - promissory estoppel
+    - terms
+    jurisdiction:
+    - UK
+  eu-law:
+    name: EU Law (Internal Market)
+    folders: []
+    aliases:
+    - eu law
+    - internal market
+    - free movement
+    - free movement of goods
+    - dassonville
+    - cassis
+    - keck
+    - article 34
+    - article 36
+    - citizenship
+    - services
+    - establishment
+    - workers
+    - direct effect
+    - supremacy
+    - cjeu
+    - preliminary reference
+    jurisdiction:
+    - EU
+  biolaw:
+    name: Biolaw
+    folders: []
+    aliases:
+    - biolaw
+    - bioethics
+    - genetic
+    - genome
+    - embryo
+    - hfea
+    - gdpr health
+    - biobank
+    - gene editing
+    jurisdiction:
+    - UK
+    - EU
+  business-law:
+    name: Business Law
+    folders: []
+    aliases:
+    - company law
+    - business law
+    - directors duties
+    - shareholder
+    - corporate
+    jurisdiction:
+    - UK
+  ai-data-protection:
+    name: AI and Data Protection
+    folders: []
+    aliases:
+    - gdpr
+    - data protection
+    - artificial intelligence
+    - ai act
+    - automated decision
+    - profiling
+    - uk gdpr
+    - data protection act 2018
+    - algorithm
+    jurisdiction:
+    - UK
+    - EU
+    - US
+  general-law:
+    name: General / Unsorted Primary Sources
+    folders: []
+    aliases: []
+    jurisdiction:
+    - UK
+    - EU
+  assessment-skills:
+    name: Assessment Skills and OSCOLA
+    folders: []
+    aliases:
+    - oscola
+    - citation
+    - referencing
+    - footnote
+    - essay writing
+    - exam technique
+    jurisdiction: []
+  civil-procedure:
+    name: Civil Procedure and Litigation
+    folders: []
+    aliases:
+    - civil procedure
+    - limitation
+    - litigation
+    - cpr
+    - time-barred
+    - time barred
+    - limitation period
+    - limitation act
+    - out of time
+    jurisdiction:
+    - UK
+  constitutional-law:
+    name: Constitutional and Public Law
+    folders: []
+    aliases:
+    - constitutional
+    - judicial review
+    - human rights act
+    - parliament
+    jurisdiction:
+    - UK
+  employment-law:
+    name: Employment Law
+    folders: []
+    aliases:
+    - employment
+    - employee
+    - employer
+    - minimum wage
+    - unfair dismissal
+    - worker
+    - wages
+    - national minimum wage
+    - national living wage
+    jurisdiction:
+    - UK
+  family-law:
+    name: Family Law
+    folders: []
+    aliases:
+    - family law
+    - divorce
+    - children act
+    - marriage
+    - civil partnership
+    - child arrangements
+    jurisdiction:
+    - UK
+  financial-services-law:
+    name: Financial Services Law
+    folders: []
+    aliases:
+    - financial services
+    - fca
+    - fsma
+    - payment services
+    - banking
+    jurisdiction:
+    - UK
+  intellectual-property:
+    name: Intellectual Property
+    folders: []
+    aliases:
+    - copyright
+    - patent
+    - trade mark
+    - trademark
+    - intellectual property
+    jurisdiction:
+    - UK
+  tax-law:
+    name: Tax Law
+    folders: []
+    aliases:
+    - income tax
+    - corporation tax
+    - taxation
+    - finance act
+    - hmrc
+    - revenue and customs
+    - vat
+    jurisdiction:
+    - UK
+  wills-succession:
+    name: Wills and Succession
+    folders: []
+    aliases:
+    - wills
+    - succession
+    - intestacy
+    - inheritance
+    - probate
+    jurisdiction:
+    - UK
+feedback_folders: []
+ignore: []
+ignore_patterns:
+- lawyerz ai
+- \bai[- ]generated\b
+module_codes: {}
+pii: []

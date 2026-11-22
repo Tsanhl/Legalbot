@@ -1,0 +1,6 @@
+# Copy to kb/identifiers.local.txt (never uploaded) and list what identifies your own institution and records,
+# one regular expression per line. Anything matching is kept out of the shareable index and case notes.
+your university name
+your learning platform
+your term names
+\bMODULECODE\d{4}\b

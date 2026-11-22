@@ -1,0 +1,9 @@
+# Search keywords removed by hand because they were too broad or too specific (they sent questions to the
+# wrong area). The training loop never adds these back. Format: area slug -> list of keywords.
+biolaw: [ai act, data protection, ai regulation]
+constitutional-law: [library closure]
+contract-law: [deposit, deposit back]
+eu-law: [worker status]
+tort-law: [article 8, freedom of expression, human rights act]
+intellectual-property: [infringement]
+wills-succession: [estate]

@@ -1,0 +1,74 @@
+---
+title: Authorised push payment fraud - Philipp v Barclays (Quincecare), the mandatory reimbursement scheme and the CRM Code
+topic: financial-services-law
+authority: notes
+written: 2026-11-24
+verified_against:
+  - "Philipp v Barclays Bank UK plc [2023] UKSC 25 (paras 1-5, 97, 102): kb/topics/financial-services-law/raw/case_law/philipp-v-barclays-bank-uk-plc-official.md"
+  - "Larsson v Revolut Ltd [2024] EWHC 1287 (Ch): kb/topics/financial-services-law/raw/case_law/larsson-v-revolut-ltd-official.md"
+  - "Singularis Holdings Ltd v Daiwa Capital Markets Europe Ltd [2019] UKSC 50: kb/topics/financial-services-law/raw/case_law/singularis-holdings-ltd-v-daiwa-capital-markets-europe-ltd-official.md"
+  - "Reimbursement scheme from 7 October 2024 (GBP 85,000 limit, 50:50 split, excess, 13 months, 5 business days, 35 business days): PSR news release of 25 September 2024 https://www.psr.org.uk/news-and-updates/latest-news/news/psr-confirms-its-decision-on-app-scams-reimbursement/ and Freshfields briefing https://www.freshfields.com/en/our-thinking/briefings/2024/09/authorised-push-payment-fraud-a-new-mandatory-reimbursement-regime-for-uk-psps"
+  - "FSMA 2023 s 72 (as described in Philipp para 21): kb/topics/financial-services-law/raw/case_law/philipp-v-barclays-bank-uk-plc-official.md"
+  - "Current limit still GBP 85,000, excess, time limits (PSR consumer page, 2026): https://www.psr.org.uk/information-for-consumers/app-fraud-reimbursement-protections/"
+  - "FSCS deposit limit GBP 120,000 from 1 December 2025 (PRA PS24/25): https://www.bankofengland.co.uk/news/2025/november/pra-confirms-fscs-deposit-limit-to-be-increased-to-120000-from-1-december"
+  - "JP SPC 4 [2022] UKPC 18: https://jcpc.uk/cases/jcpc-2020-0044"
+  - "Financial Services and Markets Bill [HL] 2026-27 (PSR abolition): https://www.gov.uk/government/news/boost-for-britains-financial-services-and-greater-protections-for-consumers-as-new-legislation-is-introduced"
+---
+# Authorised push payment fraud: *Philipp v Barclays*, mandatory reimbursement and the CRM Code
+
+## Overview
+In an authorised push payment (APP) fraud a victim is deceived into sending money to a fraudster. Because the customer really did instruct the payment, it is "authorised" and the usual unauthorised-transaction refund rules (see the Payment Services Regulations note) do not apply. At common law the Supreme Court held in *Philipp v Barclays Bank UK plc* [2023] UKSC 25 that the bank's *Quincecare* duty does not extend to a customer's own genuine instruction. The victim's route to money back is therefore the regulatory reimbursement scheme: since 7 October 2024, sending and receiving payment firms must reimburse most APP fraud victims on Faster Payments and CHAPS up to GBP 85,000 per claim, with the cost split 50:50.
+
+## The law
+**Common law: the *Quincecare* duty.** *Barclays Bank plc v Quincecare Ltd* [1992] 4 All ER 363 (Steyn J) recognised an implied term that a bank will use reasonable skill and care in executing its customer's orders, balanced against its duty to pay promptly; a bank that is "put on inquiry" by reasonable grounds for believing that an order is an attempt to misappropriate funds must refrain from executing it until it has made inquiries. The cases concerned instructions from an agent (typically a director) of a corporate customer.
+
+**Philipp v Barclays Bank UK plc [2023] UKSC 25, [2024] AC 346.** Mr and Mrs Philipp were deceived by fraudsters into instructing Barclays to transfer GBP 700,000 in two payments to accounts in the UAE; the funds were lost. They argued Barclays should have refused to execute or made inquiries because it had reasonable grounds to suspect fraud. The Supreme Court, giving judgment through Lord Leggatt, unanimously restored the High Court's summary judgment for the bank, reversing the Court of Appeal ([2022] EWCA Civ 318). Points:
+1. The bank's basic duty under its contract with a customer in credit is to make payments in compliance with the customer's instructions; the duty is strict. Where the customer has authorised and instructed the payment, the bank must carry it out promptly, and it is not for the bank to concern itself with the wisdom or risks of its customer's decision (para 3).
+2. The *Quincecare* duty is not a special or free-standing rule: it is an application of the general duty of care to interpret, ascertain and act in accordance with the customer's instructions. It applies where the bank is put on inquiry that an instruction given by an agent purportedly on behalf of the customer is an attempt to defraud the customer, because the question is whether the instruction was really authorised (para 97 and para 5).
+3. It does not apply where the customer has unequivocally authorised and instructed the payment, even though the customer's decision came from the deceit of a third party: fraud does not negative intention (para 102).
+4. The duty to follow a valid instruction is not unlimited: it is subject to implied conditions that the bank cannot be required to act unlawfully and that it will act honestly (para 106). The Court did not decide, because it was not argued fully, whether a further implied limitation might apply where a bank has reliable information (for example from the police) that an instruction has, unknown to the customer, been procured by fraud (paras 107-109). Here the facts said to put the bank on inquiry were all known to Mrs Philipp herself (para 110). The bank's terms gave it a *right* to decline an instruction it reasonably believed to be the result of APP fraud, but a right is not a duty (para 114).
+The result is that, as a matter of common law, banks owe no general duty to protect customers from their own authorised payments to fraudsters. *Larsson v Revolut Ltd* [2024] EWHC 1287 (Ch) applied this reasoning to a *receiving* institution: Revolut owed the payer no contractual or tortious duty to protect him from fraud by its own account-holder (the payer's own customer relationship with Revolut made no difference), and those claims were struck out. A claim for dishonest assistance in breach of trust was not struck out at that stage, but it requires proof that an identified individual within the bank was dishonest; mere knowledge or negligence is not enough (*Royal Brunei Airlines Sdn Bhd v Tan* [1995] 2 AC 378).
+*Singularis Holdings Ltd v Daiwa Capital Markets Europe Ltd* [2019] UKSC 50 shows the *Quincecare* duty in operation: a company's investment bank and broker paid out the company's money on the instruction of its dominant controller, who was defrauding it; the bank was liable for breach of the duty; the Supreme Court dismissed the bank's attempts to defeat the claim by attributing the controller's fraud to the company and by illegality, with a 25% reduction for contributory negligence at first instance.
+
+**Regulatory reimbursement: the PSR scheme.** Section 72 of the Financial Services and Markets Act 2023 (Royal Assent 29 June 2023) amended reg 90 of the Payment Services Regulations to enable liability to be imposed where a payment order is executed subsequent to fraud or dishonesty, and required the Payment Systems Regulator (PSR) to impose a reimbursement requirement for qualifying cases over Faster Payments; the PSR's directions, together with Bank of England rules, extended the scheme to CHAPS. The scheme's obligations were not intended to be directly enforceable by customers (*Philipp* para 21); they are enforced by the regulator, and a customer can complain to the Ombudsman. The scheme applies to payments made on or after **7 October 2024**:
+- **Scope**: APP scams over Faster Payments and CHAPS, covering consumers, microenterprises and small charities. It does not cover payments over other systems (for example, card payments or crypto), international payments, payments for unlawful purposes, civil disputes with legitimate suppliers, or payments between accounts of the same person.
+- **Who pays**: the sending firm reimburses the victim, then the cost is split 50:50 between sending and receiving firms.
+- **Limit**: GBP 85,000 per claim (the PSR reduced this from a proposed GBP 415,000 in September 2024, aligning with the FSCS deposit limit as it then stood); the Bank of England set the same limit for CHAPS. Although the FSCS deposit limit rose to GBP 120,000 from 1 December 2025, the APP reimbursement limit was still GBP 85,000 in 2026. Firms may reimburse more, and a victim can take the excess to the Ombudsman.
+- **Excess**: the sending firm may apply an excess of up to GBP 100 (or none); not applicable to vulnerable customers.
+- **Timing**: the sending firm must reimburse within **five business days** of the claim being reported, with the ability to stop the clock to obtain information; the maximum is **35 business days**. Claims may be refused where made more than **13 months** after the final payment.
+- **Consumer standard of caution**: reimbursement is not required where the customer acted fraudulently or with gross negligence. The PSR's guidance confines the gross negligence test to specific circumstances: having regard to interventions by the firm or the police, reporting promptly (and in any event within 13 months), responding to reasonable requests for information, and, after making a claim, consenting to the firm reporting the scam to the police on the customer's behalf (or reporting it directly if asked). The standard does not apply to vulnerable customers.
+- **Vulnerability**: assessed under the FCA's guidance.
+- **Framework**: Pay.UK's Faster Payments reimbursement rules, implemented under PSR directions, bind direct and indirect participants; the PSR monitors and enforces compliance.
+
+**CRM Code (history).** The Lending Standards Board's voluntary Contingent Reimbursement Model Code took effect on 28 May 2019, with only 10 payment service providers signed up at the time of *Philipp* (para 20). Signatories committed to reimburse customers who were not at fault, subject to exceptions (for example, ignoring effective warnings or lacking a reasonable basis for believing the payee was legitimate). Reimbursement was not mandatory and coverage was patchy; the FOS decided disputes under the Code. The mandatory scheme replaced it for Faster Payments and CHAPS from 7 October 2024.
+
+**Other routes.** A complaint to the Financial Ombudsman Service (see the FOS note): the Ombudsman applies what is fair and reasonable, taking into account regulations, good industry practice and the Consumer Duty; claims against the receiving bank (if negligence or *Quincecare*-type claims are possible); restitutionary and equitable claims against the fraudster and tracing; and payment service regulations where the payment was in truth unauthorised (for example where credentials were taken and the payment was initiated by the fraudster rather than the customer).
+
+## Key authorities
+- *Philipp v Barclays Bank UK plc* [2023] UKSC 25, [2024] AC 346: above.
+- *Barclays Bank plc v Quincecare Ltd* [1992] 4 All ER 363 (Steyn J): origin of the duty; confined to instructions from an agent.
+- *Singularis Holdings Ltd v Daiwa Capital Markets Europe Ltd* [2019] UKSC 50: duty applied to a company's broker; attribution and illegality defences rejected (applying *Patel v Mirza*).
+- *Larsson v Revolut Ltd* [2024] EWHC 1287 (Ch): contract and negligence claims against the recipient institution struck out; dishonest assistance claim allowed to be re-pleaded.
+- *Royal Bank of Scotland International Ltd v JP SPC 4* [2022] UKPC 18 (Privy Council, Isle of Man): the *Quincecare* duty is owed only to the bank's customer, not to a non-customer beneficial owner of the funds.
+- *Abou-Rahmah v Abacha* [2005] EWHC 2662 (QB) (Treacy J): a recipient bank owed the payer no duty to pay the money only to the named beneficiary (cited in *Larsson*).
+
+## Applying it
+1. Classify the payment: was it initiated by the customer (authorised, even if induced by fraud), or by a fraudster without the customer's consent (unauthorised, PSRs 2017 regs 67, 75-77)?
+2. If authorised APP fraud, check the scheme: was the payment made on or after 7 October 2024; over Faster Payments or CHAPS; to another person; did the customer fall within the eligible class; was the claim made within 13 months; is the amount within GBP 85,000?
+3. Does an exception apply: fraud or gross negligence by the customer (apply the four limited circumstances); is the customer vulnerable (no exception, no excess)? Any excess of up to GBP 100?
+4. Timeline: five business days; the clock may stop; 35 business days maximum.
+5. If the payment was before 7 October 2024, check whether the sending firm signed the CRM Code and whether any exceptions applied; then FOS.
+6. If the scheme does not apply (for example, a payment by card or a civil dispute), consider *Quincecare* only if the instruction came from an agent; otherwise there is no common law claim against the bank for processing the customer's own instruction (*Philipp*).
+7. Common traps: arguing that a bank had a duty to stop an authorised payment; ignoring that the scheme requires the *sending* firm to reimburse the customer; applying the scheme to pre-7 October 2024 payments; treating "gross negligence" as ordinary carelessness.
+Everyday version: if you were tricked into sending money to a scammer from your bank account by bank transfer on or after 7 October 2024, your bank should normally refund you within five working days (up to GBP 85,000), unless you were grossly careless or involved in the fraud; report it quickly and within 13 months.
+
+## Debates and reform
+- Whether the cap and the standard-of-caution exception dilute protection; early reports on firms' compliance and uptake; payments not covered (card payments, international and crypto).
+- Whether moral hazard is increased by blanket reimbursement and whether the sharing of cost between sending and receiving firms properly incentivises prevention.
+- After *Philipp*, whether the common law is adequate; the critique that regulatory solutions have displaced banks' private-law duties.
+- The planned merger of the PSR into the FCA: the Treasury has said the reimbursement rules would be carried across in the transition.
+
+## Recent changes and points to check
+- From 7 October 2024: Faster Payments and CHAPS reimbursement (GBP 85,000, 50:50, five business days, 35 business days maximum, 13 months).
+- The Financial Services and Markets Bill [HL] (introduced May 2026; passed the Lords 15 September 2026; in Commons committee in November 2026) would abolish the PSR and transfer its functions, including the reimbursement requirement, to the FCA. It was not law as of November 2026, so the PSR remains the regulator.
+- The maximum reimbursement remained GBP 85,000 in 2026 despite the FSCS deposit limit rising to GBP 120,000.

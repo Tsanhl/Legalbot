@@ -1,0 +1,64 @@
+---
+title: Members' remedies - derivative claims, unfair prejudice, just and equitable winding up, reflective loss
+topic: business-law
+authority: notes
+written: 2026-11-24
+verified_against:
+  - "Companies Act 2006 ss 260-264 (derivative claims), ss 994-996 (unfair prejudice): kb/topics/business-law/raw/legislation/companies-act-2006-41dd5a.md"
+  - "Iesini v Westrip Holdings Ltd [2009] EWHC 2526 (Ch): kb/topics/business-law/raw/case_law/iesini-v-westrip-holdings-ltd-official.md"
+  - "Insolvency Act 1986 s 122(1)(g): kb/topics/business-law/raw/legislation/insolvency-act-1986-f2af78.md"
+  - "Sevilleja v Marex [2020] UKSC 31 press summary: https://caselaw.nationalarchives.gov.uk/uksc/2020/31/press-summary"
+---
+# Members' remedies: derivative claims, unfair prejudice, just and equitable winding up, reflective loss
+
+## Overview
+A wrong done to a company is remedied by the company (the proper claimant rule from *Foss v Harbottle*). A member who wants redress has four main routes: a statutory derivative claim on the company's behalf (Companies Act 2006 Part 11), a petition for unfair prejudice (s 994), a petition to wind up on the just and equitable ground (Insolvency Act 1986 s 122(1)(g)), or a personal claim for breach of a duty owed to the member. The reflective loss rule limits what a shareholder can claim personally where the company also has a claim; *Sevilleja v Marex* [2020] UKSC 31 narrowed it to shareholders suing as shareholders.
+
+## The law
+**Derivative claims (Part 11, Chapter 1).**
+- s 260(1): a derivative claim is brought by a member in respect of a cause of action vested in the company, seeking relief on the company's behalf. It may be brought only under Chapter 1 or by court order in unfair prejudice proceedings (s 260(2)). It arises from an actual or proposed act or omission involving negligence, default, breach of duty or breach of trust by a director (including a former or shadow director), and may be against the director or another person or both (s 260(3), (5)). It is immaterial whether the cause of action arose before or after the claimant became a member (s 260(4)).
+- Two-stage permission process: s 261 (the member applies for permission to continue, and the court must dismiss the application if the papers do not disclose a prima facie case; the court then considers evidence from the company and may give directions); s 262 (a member may apply to continue a company-brought claim as a derivative claim); s 264 (a member may apply to continue a derivative claim started by another member).
+- s 263 sets out when permission **must be refused**: if a person acting in accordance with s 172 would not seek to continue the claim; or the act or omission was authorised before it occurred, or has been ratified since (s 263(2)). Where neither applies, the court takes into account the matters in s 263(3), including: whether the member is acting in good faith; the importance a s 172 director would attach to the claim; whether the act could or would be authorised or ratified; whether the company has decided not to pursue the claim; and whether the member could pursue an own-right claim. The court must have particular regard to the views of independent members (s 263(4)).
+- Costs: the company may be ordered to indemnify the member's costs (*Wallersteiner v Moir (No 2)* [1975] QB 373), and the court may make a pre-emptive costs order.
+
+**Unfair prejudice (Part 30).**
+- s 994(1): a member may petition on the ground that the company's affairs are being or have been conducted in a manner that is unfairly prejudicial to the interests of its members generally or of some part of its members (including at least the petitioner), or that an actual or proposed act or omission would be so prejudicial. Conduct of the company's "affairs" includes decisions of the board and, in some cases, the acts of controlling members. "Interests" as a member are not confined to strict legal rights.
+- s 996(1): the court may make such order as it thinks fit for giving relief; s 996(2) lists examples: regulating the conduct of affairs in future; requiring the company to refrain from or do an act; authorising civil proceedings in the company's name; requiring the company not to make specified alterations to the articles; and requiring the company or other members to purchase the petitioner's shares at a fair price (the commonest remedy).
+- Unfairness is judged objectively with regard to equitable considerations. Where the company is a "quasi-partnership" (formed or continued on the basis of personal relationship and mutual trust, with an understanding of participation in management), unfairness can arise from breach of understandings, not only of the articles.
+
+**Just and equitable winding up** (Insolvency Act 1986 s 122(1)(g)). The court may wind up if just and equitable. The petition ground is similar in quasi-partnerships to unfair prejudice (exclusion from management, breakdown of trust), but the remedy is the extreme one of liquidation, and the court must refuse a winding-up order if some other remedy is available and the petitioner is acting unreasonably in seeking winding up instead of pursuing it, for example by rejecting a fair buy-out offer (s 125(2)).
+
+**Personal claims.** A member can sue personally for a breach of the contract in the constitution (s 33; see the constitution note), and for breach of duties directly owed to members (for example where directors advise members in a takeover).
+
+**Reflective loss.** *Prudential Assurance v Newman Industries (No 2)* [1982] Ch 204 and *Johnson v Gore Wood & Co* [2002] 2 AC 1 (HL) held that a shareholder cannot recover for a fall in the value of his shares, or lost dividends, that merely reflects loss suffered by the company where the company has its own cause of action against the same wrongdoer. In *Marex* the Supreme Court held that the rule applies only to claims by shareholders in respect of a diminution in share value or distributions that is the consequence of loss suffered by the company that the company has a right to sue for. It does not bar claims by creditors of the company, nor claims by a shareholder in another capacity (for example as creditor or employee), nor shareholder claims for other kinds of loss. Lord Reed treated the rule as one of company law, flowing from the proper claimant principle and the shareholder's agreement to abide by the company's decisions about its own claims, distinct from the general rule against double recovery.
+
+## Key authorities
+- *Foss v Harbottle* (1843) 2 Hare 461: members cannot sue for wrongs done to the company; the majority can ratify irregularities. Principle now sits behind Part 11.
+- *Iesini v Westrip Holdings Ltd* [2009] EWHC 2526 (Ch): detailed treatment of the s 261 and s 263 permission tests (in the knowledge base as a full judgment). Read it for how the court approaches s 263(2)(a): permission is refused only where no director acting in accordance with s 172 would seek to continue the claim, and where a notional director might go either way the court moves to the s 263(3) factors.
+- *Franbar Holdings Ltd v Patel* [2008] EWHC 1534 (Ch) and *Mission Capital plc v Sinclair* [2008] EWHC 1339 (Ch): early decisions on the permission stage; at the first stage only a prima facie case is needed, and both discuss how the s 172 question in s 263(2)(a) and (3)(b) should be approached.
+- *O'Neill v Phillips* [1999] 1 WLR 1092 (HL; Lord Hoffmann): the leading unfair prejudice decision. Unfairness generally requires a breach of the terms on which the members agreed the company's affairs would be conducted (the articles and any collateral understandings), or use of the rules in a way equity regards as contrary to good faith. There is no right to exit simply because trust and confidence have broken down. On the facts there was no concluded agreement to give the petitioner more shares, so the petition failed. A reasonable offer to buy the minority's shares at fair value (Lord Hoffmann gave guidance on its terms) will usually make continuing a petition an abuse.
+- *Ebrahimi v Westbourne Galleries Ltd* [1973] AC 360 (HL): just and equitable winding up where a quasi-partner was excluded from management of a company formed on the basis of mutual personal confidence; the court looks past the formal rights in the articles to the equitable considerations.
+- *Re Saul D Harrison & Sons plc* [1995] 1 BCLC 14 (CA): unfair prejudice requires prejudice to the interests of the member qua member; unfairness is judged objectively.
+- *Re R A Noble & Sons (Clothing) Ltd* [1983] BCLC 273: exclusion of a quasi-partner from management was not unfairly prejudicial where it was largely the result of his own lack of interest, but the breakdown of trust still justified a just and equitable winding up; the two jurisdictions can produce different results.
+- *Re Bird Precision Bellows Ltd* [1986] Ch 658 (CA): buy-out is valued at pro rata value without minority discount in a quasi-partnership.
+- *Sevilleja v Marex Financial Ltd* [2020] UKSC 31, [2021] AC 39: reflective loss; Lord Reed's leading judgment. A shareholder's claim for diminution in share value or distributions is barred if the company has a cause of action for the same loss; creditors (and shareholders suing in another capacity) are not barred. *Prudential* (No 2) is the basis of the principle; the reasoning in *Johnson v Gore Wood* (other than Lord Bingham's) that extended it to other claims was departed from. Lord Hodge concurred; Lord Sales (with Lady Hale and Lord Kitchin) agreed in the result but would have gone further and abandoned the *Prudential* bright-line rule.
+- *Giles v Rhind* [2002] EWCA Civ 1428, *Perry v Day* [2004] EWHC 3372 (Ch) and *Gardner v Parker* [2004] EWCA Civ 781: *Giles* created an exception where the defendant's wrong disabled the company from suing, and *Gardner* extended the rule to creditors who were also shareholders; *Marex* held all three wrongly decided.
+
+## Applying it
+1. Identify whose loss it is. If the wrong is to the company (misappropriation, undervalue sale, negligent management), the claim is the company's: use a derivative claim. If the member's own rights or interests as member are harmed, consider unfair prejudice or a personal claim.
+2. For a derivative claim, check: the cause of action is against a director (or someone involved), the claimant is a member, and a s 172-compliant director would pursue it. Check whether the conduct was authorised or ratified (s 263(2)), including by the independent members, and whether the claimant has a personal claim that is more suitable.
+3. For unfair prejudice, check: is the company a quasi-partnership? What understandings were reached? Was there exclusion from management, diversion of profits, excessive remuneration, or breach of a pre-emption or shareholder agreement? Has the respondent made a reasonable offer? Consider the remedy: buy-out, valuation date and discount.
+4. For winding up, consider whether there is an adequate alternative remedy, and the practical effect on the petitioner.
+5. Reflective loss: if the shareholder is suing for loss that is the same as the company's, identify the company's cause of action and ask whether the claimant is suing as shareholder. If the claimant is a creditor, the rule does not apply.
+6. Common traps: suing personally for company loss; ignoring the permission stage; relying on a mere breakdown in trust without showing prejudice; offering a buy-out too late.
+Everyday version: a minority shareholder in a small company who has been shut out of management and whose directors have been paying themselves large salaries should consider an unfair prejudice petition, often leading to the court ordering the others to buy them out at a fair price.
+
+## Debates and reform
+- The statutory derivative claim was meant to be more accessible than the common law exceptions; evidence suggests it is still difficult because of the permission filter and the cost risk.
+- The continued usefulness of quasi-partnership analysis given *O'Neill*'s emphasis on agreed terms.
+- The scope of the reflective loss rule after *Marex*, including claims by shareholders for other types of loss (for example, personal losses and loss of the chance of a dividend).
+- Whether the court should be more willing to grant relief for a minority in listed companies (*Re Astec (BSR) plc* [1998] 2 BCLC 556 indicates a narrow approach).
+
+## Recent changes and points to check
+- No legislative change to Part 11 or Part 30; the Law Commission has not proposed reform to the derivative claim rules recently.
+- After *Marex*, the rule bars only a shareholder's claim for diminution in share value or distributions caused by loss the company can sue for; there is no exception where the company is disabled from suing.

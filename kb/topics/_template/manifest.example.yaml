@@ -1,0 +1,10 @@
+# Copy this folder to kb/topics/<slug>/ for each area of law.
+slug: competition-law
+name: Competition Law
+aliases: [competition, antitrust, article 101, article 102, cartel, abuse of dominance, competition act 1998, merger control]
+jurisdiction: [UK, EU]
+law_folders:                 # originals, relative to paths.law_root (never modified)
+  - Competition Law
+last_updated: 2026-11-18     # when YOU last reviewed / added material for this topic
+last_indexed: null           # written by `python -m legalbot.index build`
+sources: []                  # ledger written by ingest: {original, sha256, raw, authority, extracted_at}

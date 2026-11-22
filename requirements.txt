@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+websockets
+grpcio
+grpcio-tools
+protobuf
+faiss-cpu
+numpy
+sentence-transformers
+pyyaml
+pypdf
+python-docx
+python-pptx
+anthropic
+pytest
+pypdfium2
+httpx
+ocrmac; sys_platform == 'darwin'

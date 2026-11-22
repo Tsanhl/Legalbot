@@ -1,0 +1,58 @@
+---
+title: The CPR framework - overriding objective, case management, tracks and relief from sanctions
+topic: civil-procedure
+authority: notes
+written: 2026-11-24
+verified_against:
+  - "CPR 1.1 (text of paragraphs (1)-(2), including (f) ADR and (g) compliance): https://www.legislation.gov.uk/uksi/1998/3132/rule/1.1"
+  - "CPR 26.9 (track allocation: small claims, fast, intermediate, multi-track thresholds, intermediate-track party limits and mandatory multi-track categories): https://www.legislation.gov.uk/uksi/1998/3132/rule/26.9 (re-read November 2026)"
+  - "CPR 3.1 and 3.9 (case management powers; relief from sanctions): knowledge-base raw file for rule 3.1 and legislation.gov.uk"
+  - "Barton v Wright Hassall LLP [2018] UKSC 12 (compliance with rules as part of the overriding objective): knowledge-base raw copy of the judgment"
+---
+# The CPR framework - overriding objective, case management, tracks and relief from sanctions
+
+## Overview
+The Civil Procedure Rules 1998 (CPR) are a procedural code whose overriding objective is to deal with cases justly and at proportionate cost. Courts manage cases actively, allocate them to one of four tracks (small claims, fast, intermediate or multi-track) mainly by value and complexity, and enforce compliance with rules, practice directions and orders. When a party breaches a rule or order that carries a sanction, relief is governed by the three-stage test in *Denton*, which is strict but not mechanical.
+
+## The law
+**Overriding objective (CPR 1.1).** The rules are "a procedural code with the overriding objective of enabling the court to deal with cases justly and at proportionate cost" (r 1.1(1)). Dealing with a case justly and at proportionate cost includes, so far as practicable (r 1.1(2)): (a) ensuring the parties are on an equal footing and can participate fully in proceedings, and that parties and witnesses can give their best evidence; (b) saving expense; (c) dealing with the case in ways proportionate to the amount of money involved, the importance of the case, the complexity of the issues and the financial position of each party; (d) ensuring that it is dealt with expeditiously and fairly; (e) allotting an appropriate share of the court's resources while taking into account the need to allot resources to other cases; (f) promoting or using alternative dispute resolution (inserted with effect from 1 October 2024); and (g) enforcing compliance with rules, practice directions and orders. The court must give effect to the objective when it exercises any power or interprets any rule (r 1.2), and the parties are required to help the court to further the objective (r 1.3).
+
+**Active case management (r 1.4).** Includes encouraging co-operation, identifying issues early, deciding which issues need full investigation, encouraging the use of ADR (and, since 1 October 2024, ordering or facilitating it), dealing with as many aspects of the case as practicable at the same time, fixing timetables, and using technology.
+
+**Case management powers (r 3.1).** The court may extend or shorten time for compliance (r 3.1(2)(a)), adjourn or bring forward a hearing, stay proceedings, consolidate or try claims together, direct separate trial of issues, and, since 1 October 2024, order the parties to engage in ADR (r 3.1(2)(o)). It can make an order subject to conditions (r 3.1(3)) and vary or revoke its own order (r 3.1(7)); a variation is not available merely because a party has changed its mind, and the courts apply strict principles (see *Tibbles v SIG plc* [2012] EWCA Civ 518). Costs and cost-budgeting: in the multi-track the court usually manages costs budgets (CPR 3.12-3.18; PD 3E) where the claim is under £10 million.
+
+**Sanctions and relief (r 3.8, r 3.9).** Where a party fails to comply with a rule, practice direction or court order, any sanction imposed by the rule or order takes effect unless the party applies for relief (r 3.8). On an application for relief from a sanction, the court considers all the circumstances of the case so as to enable it to deal justly with the application, including the need for litigation to be conducted efficiently and at proportionate cost, and to enforce compliance with rules, practice directions and orders (r 3.9(1)).
+
+**Tracks (r 26.9 and Parts 27-29).** The tracks as they apply to claims issued from 1 October 2023 are:
+- *Small claims track* (Part 27): normally for claims of up to £10,000 (with lower limits for personal injury: damages for pain, suffering and loss of amenity up to £1,500 for most claims, £5,000 for road traffic accident claims within r 26.9 (£1,000 in the cases in r 26.10); and for a tenant's housing disrepair claim, repairs estimated at no more than £1,000 and other damages no more than £1,000). Costs are very limited (r 27.14), with hearings informal and no fixed trial period.
+- *Fast track* (Part 28): claims not suitable for the small claims track with a value up to £25,000; trial is expected to last no more than one day; limited oral expert evidence (one expert per party per field, in no more than two fields); standard directions.
+- *Intermediate track* (Part 28 Section IV, introduced 1 October 2023): claims between £25,000 and £100,000 which, if managed proportionately, can be tried in three days or fewer, with oral expert evidence limited to two experts per party; one claimant against one or two defendants, or two claimants against one defendant; fixed recoverable costs (see the costs note).
+- *Multi-track* (Part 29): claims above £100,000, or not suitable for the other tracks; some categories are always multi-track (r 26.9(10)): mesothelioma and asbestos lung disease claims; clinical negligence claims (unless liability is admitted in full under the protocol and the claim would otherwise be intermediate track); claims for harm, abuse or neglect of or by children or vulnerable adults; claims against the police for intentional or reckless torts or under the Human Rights Act 1998; and claims that could be tried by jury. The court holds case management conferences and may make bespoke directions; in the Business and Property Courts, Practice Direction 57AD governs disclosure.
+
+The court allocates to the track when the defence is filed and directions questionnaires have been returned (Part 26), taking into account the value, the nature of the claim, the complexity, the number of parties, the value of any counterclaim, the likely oral evidence and the parties' circumstances.
+
+## Key authorities
+- *Mitchell v News Group Newspapers Ltd* [2013] EWCA Civ 1537, [2014] 1 WLR 795 (Court of Appeal): the 2013 amendment to r 3.9 required a stricter approach to relief from sanctions; trivial breaches would be excused, but otherwise relief should not be granted merely because the party was in a hurry or the other side was unharmed. Its approach was held to be too harsh in application and was refined in *Denton*.
+- *Denton v TH White Ltd* [2014] EWCA Civ 906, [2014] 1 WLR 3926 (Court of Appeal): a three-stage test for relief from sanctions. (1) Identify and assess the seriousness and significance of the failure to comply (a breach that is neither serious nor significant means relief will usually be granted without more). (2) Consider why the default occurred. (3) Evaluate all the circumstances of the case so as to deal justly with the application, giving particular weight to the two factors in r 3.9(1): litigation conducted efficiently and at proportionate cost, and the enforcement of compliance. The Court also said that parties should co-operate, and a party who unreasonably resists a reasonable application for relief may be penalised in costs, and that the court should not allow the other side's technical points to prevail.
+- *Barton v Wright Hassall LLP* [2018] UKSC 12 (UK Supreme Court): service of a claim form by email on solicitors who had not indicated willingness to accept it did not meet the rules; the claimant, a litigant in person, was not given a lower standard, and the majority (Lord Sumption, with Lord Wilson and Lord Carnwath) refused to validate the service retrospectively under r 6.15(2) (Lord Briggs and Lady Hale dissented). Important for the principle that compliance with rules is part of the overriding objective and that litigants in person do not enjoy lesser standards. See the service note.
+- *Tibbles v SIG plc* [2012] EWCA Civ 518 (Court of Appeal): the court's power to vary its own orders (r 3.1(7)) is limited to cases where there has been a material change of circumstances, a misstatement to the court, or a manifest mistake; it is not an invitation to re-argue.
+
+## Applying it
+1. Identify which rule or order has been breached and whether it carries a sanction (for instance an "unless" order or an automatic sanction in the rules).
+2. Apply Denton in order: seriousness and significance (consider the effect on the timetable, on the trial date, on other cases and on the other party, not just prejudice); reasons for the default (a good reason such as illness or an unexpected event; poor reasons include oversight, pressure of work and inadequate systems); all the circumstances (with the two weighted factors in r 3.9).
+3. Note the conduct of the party seeking relief: did they apply promptly? Was the application made before or after the sanction took effect? Did the other side behave reasonably in opposing?
+4. Remedies available include relief on terms, costs orders and an order for costs thrown away.
+5. For track allocation questions: look at value (net of any admitted sums and interest), nature (for example, personal injury special limits), complexity, number of experts and the likely length of trial; for an intermediate-track claim check the single claimant and number of defendants, and that the trial is estimated at three days or fewer.
+6. Common traps: using the pre-October-2023 thresholds (the fast track limit was previously £25,000 for trial of one day, but the intermediate track did not exist and the multi-track started at £25,000); treating relief as automatic where the other side is unharmed; forgetting that r 1.1(2)(f) is now ADR and (g) is compliance.
+7. Everyday question: "I missed the deadline to file my defence/witness statements; what happens?" Answer: if a sanction took effect, apply promptly for relief, explain the reason for the delay, and be ready to show that the breach was not serious or that the circumstances justify relief; cooperating with the other side helps.
+
+## Debates and reform
+- Whether the "proportionate costs" and "enforcement" emphasis after *Mitchell* and *Denton* produces fairness or technical results, and whether litigants in person should be treated differently (Lord Briggs's final paragraph in *Barton* invited the Rule Committee to consider the point).
+- The effect of the Civil Justice Council reviews on pre-action conduct, litigation funding and the future of the CPR as a digital code; the court service is moving to a more digital system with online case management.
+- The 2023 introduction of the intermediate track and fixed costs for more cases is criticised by some as removing flexibility, and defended as improving predictability.
+
+## Recent changes and points to check
+- 1 October 2023: new Part 26 allocation provisions and the intermediate track; Part 45 reorganised; fixed recoverable costs extended.
+- 1 October 2024: ADR added to the overriding objective (r 1.1(2)(f)), to the case management powers (r 3.1(2)(o)) and to the costs rules (r 44.2(5)(e)); see the ADR note.
+- 6 April 2025: Part 25 (interim remedies) replaced in full, with new rule numbers (see the interim remedies note).
+- Court fees change periodically and are not set by the CPR.

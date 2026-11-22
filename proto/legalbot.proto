@@ -1,0 +1,86 @@
+// Internal service contracts. Chat Service is the only gRPC client.
+// Client <-WebSocket-> Chat Service <-gRPC-> {QueryProcessor, Retrieval, LLM}
+syntax = "proto3";
+
+package legalbot;
+
+// ---------- Query Processor ----------
+message Turn {
+  string role = 1;     // "user" | "assistant"
+  string content = 2;
+}
+
+message ProcessRequest {
+  string message = 1;
+  repeated Turn history = 2;      // sliding window from Conversation Store
+  string forced_intent = 3;       // "" = auto; essay | problem_question | general
+  string forced_topic = 4;        // "" = auto
+}
+
+message ProcessResponse {
+  string intent = 1;              // essay | problem_question | general | out_of_scope
+  float intent_confidence = 2;
+  string intent_reason = 3;
+  repeated string topics = 4;     // routed topic slugs (metadata filter)
+  string rewritten_query = 5;     // self-contained query for retrieval
+  bool is_follow_up = 6;
+  repeated string safety_flags = 7;
+  repeated string legal_issues = 8;  // everyday facts mapped to a legal issue (kb/lay_concepts.yaml)
+}
+
+// ---------- Retrieval ----------
+message RetrieveRequest {
+  string query = 1;
+  repeated string topics = 2;
+  int32 top_k = 3;
+  string trace_id = 4;
+}
+
+message Source {
+  string id = 1;                  // stable citation id: topic/path.md#heading-slug
+  string title = 2;               // heading path "A > B > C"
+  string topic = 3;
+  string kind = 4;                // note | raw
+  string authority = 5;           // legislation | case_law | journal | lecture | note | feedback
+  string content = 6;             // raw section text fed to the prompt
+  string original_path = 7;       // original file in the Law folder (if raw)
+  float score = 8;                // final score after fusion / rerank
+  string retrieved_by = 9;        // bm25 | vector | both
+  string label = 10;              // S1, S2 ... (prompt citation handle)
+}
+
+message RetrieveResponse {
+  repeated Source sources = 1;
+  float confidence = 2;           // 0..1, drives fallback
+  string debug_json = 3;          // full per-stage debug (tokens, scores, distances)
+}
+
+// ---------- LLM ----------
+message GenerateRequest {
+  string provider = 1;            // anthropic | claude_cli | codex_cli | mock
+  string system_prompt = 2;
+  string user_prompt = 3;
+  string model = 4;               // "" = provider default
+  string api_key = 5;             // optional, overrides env (never logged)
+  int32 max_tokens = 6;
+  bool web = 7;                   // allow web search (official sources first) for this answer
+}
+
+message Token {
+  string text = 1;
+  bool done = 2;
+  string error = 3;
+  string info = 4;                // provider/model actually used
+}
+
+service QueryProcessor {
+  rpc Process(ProcessRequest) returns (ProcessResponse);
+}
+
+service Retrieval {
+  rpc Retrieve(RetrieveRequest) returns (RetrieveResponse);
+}
+
+service LLM {
+  rpc Generate(GenerateRequest) returns (stream Token);  // server streaming = token pipeline
+}

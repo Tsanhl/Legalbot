@@ -1,0 +1,20 @@
+# Example retrieval test set. Your own set lives in eval/evalset.yaml (local only: it names your source files);
+# `python -m legalbot.train` grows it automatically. Copy this file there to start.
+# Evaluation set. Start small (~20 per topic), balance coverage, keep updating.
+# Every topic needs: core intents, paraphrases of them, and negative (out-of-KB) cases.
+# Demo cases below test the pipeline only — replace with real ones in step 4.
+- id: demo-core-1
+  category: core
+  query: What does Article 102 TFEU prohibit?
+  expected_sources: [_demo/notes/article-102.md#prohibition]
+  expected_behavior: answer
+- id: demo-para-1
+  category: paraphrase
+  query: When is a firm considered to have market power under EU law?
+  expected_sources: [_demo/notes/article-102.md#meaning-of-dominance]
+  expected_behavior: answer
+- id: demo-neg-1
+  category: negative
+  query: What is the limitation period for a claim in defamation?
+  expected_sources: []
+  expected_behavior: fallback

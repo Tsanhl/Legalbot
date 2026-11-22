@@ -1,0 +1,40 @@
+slug: contract-law
+name: Contract Law
+aliases:
+- contract
+- offer
+- acceptance
+- consideration
+- misrepresentation
+- frustration
+- breach
+- damages
+- exclusion clause
+- privity
+- promissory estoppel
+- terms
+- breach of contract
+- damages for breach
+- promise to pay
+- private sale
+- builder deposit
+- builder
+- tradesman
+- consumer rights
+- consumer law
+- faulty goods
+- sale of goods
+- fitness for purpose
+- reject the goods
+jurisdiction:
+- UK
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-24'
+counts:
+  legislation: 6
+  case_law: 7
+  textbook: 48
+  journal: 1
+  secondary: 1
+  lecture: 16

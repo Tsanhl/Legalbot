@@ -1,0 +1,66 @@
+---
+title: Redundancy - definition, fairness, consultation, payments and protected groups
+topic: employment-law
+authority: notes
+written: 2026-11-24
+verified_against:
+  - "ERA 1996 s 139 (definition of redundancy) and surrounding provisions: knowledge-base raw files (including the s 139 extract) and legislation.gov.uk"
+  - "TULRCA 1992 ss 188, 188A, 189, 193 (collective consultation, protective award): knowledge-base raw file; amendments by Employment Rights Act 2025 ss 29-30 checked against the raw file of the Act"
+  - "Protection from Redundancy (Pregnancy and Family Leave) Act 2023 and Maternity Leave, Adoption Leave and Shared Parental Leave (Amendment) Regulations 2024 (SI 2024/264): knowledge-base raw files"
+  - "2026/27 week's pay limit £751: Employment Rights (Increase of Limits) Order 2026, SI 2026/310: https://www.legislation.gov.uk/uksi/2026/310/schedule/made"
+  - "Protective award maximum 180 days for dismissals taking effect on or after 6 April 2026 (ERA 2025 s 30; SI 2026/323 reg 5): https://www.legislation.gov.uk/uksi/2026/323/made"
+  - "Organisation-wide collective redundancy threshold expected April 2027: gov.uk timeline updated 5 November 2026: https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act/plan-to-make-work-pay-and-employment-rights-act-timeline-update"
+---
+# Redundancy - definition, fairness, consultation, payments and protected groups
+
+## Overview
+Redundancy is a statutory concept (ERA 1996 s 139) that gives employees with two years' service a right to a redundancy payment, and is a potentially fair reason for dismissal that must still be handled fairly: warning, consultation, objective selection and a search for alternative work. Where 20 or more redundancies are proposed at one establishment within 90 days, a separate collective consultation duty applies under TULRCA 1992 s 188, enforced through a protective award now of up to 180 days' pay. Since 6 April 2024, pregnant employees and those returning from or on family leave have priority for suitable alternative vacancies for an extended period.
+
+## The law
+**Definition (s 139(1)).** An employee is dismissed by reason of redundancy if the dismissal is wholly or mainly attributable to: (a) the fact that the employer has ceased or intends to cease (i) to carry on the business for the purposes of which the employee was employed, or (ii) to carry on that business in the place where the employee was so employed; or (b) the fact that the requirements of that business (i) for employees to carry out work of a particular kind, or (ii) for employees to carry out work of a particular kind in the place where the employee was employed, have ceased or diminished or are expected to cease or diminish. Under s 163(2), a dismissal is presumed to be by reason of redundancy unless the contrary is proved. "Place where employed" and "work of a particular kind" turn on the contract and the work actually done; a mobility clause can widen the place.
+
+**Redundancy payment.** Entitlement arises under s 135 for employees dismissed for redundancy with two years' continuous service (s 155). Amount (s 162): for each complete year of service (up to 20), half a week's pay for years under age 22, one week's pay for years between 22 and 40, and one and a half weeks' pay for years from age 41, subject to the statutory week's pay cap (£751 from 6 April 2026; the maximum payment is therefore £22,530). The statutory entitlement is not affected by the change in the unfair dismissal qualifying period under the 2025 Act.
+
+**Suitable alternative employment.** An employee who unreasonably refuses a suitable alternative offer made before the old contract ends (to start within four weeks) loses the right to a redundancy payment (s 141). Where the new job differs, the employee has a four-week statutory trial period (s 138), which can be extended by agreement in writing for retraining. Suitability looks at the nature of the work, pay, hours and status; reasonableness of refusal looks at personal reasons such as travel, caring responsibilities and a drop in status.
+
+**Fair redundancy dismissal.** Redundancy is a potentially fair reason (s 98(2)(c)), but the dismissal must be reasonable under s 98(4). Employers are expected to: (a) warn and consult the affected employees (individual consultation is required even if there is no collective duty); (b) select from a properly defined pool using fair, objective criteria; (c) consider alternatives to dismissal, including vacancies elsewhere in the group; and (d) offer an appeal. Selection for redundancy for an inadmissible reason is automatically unfair (s 105; for instance, trade union or health and safety reasons, and family leave reasons under the Maternity and Parental Leave Regulations).
+
+**Collective consultation (TULRCA 1992).**
+- Trigger (s 188(1), (1A)): proposing to dismiss as redundant 20 or more employees at one establishment within 90 days or less. "Dismiss as redundant" includes dismissals for any reason not related to the individual, so can catch a proposal to impose new terms by dismissal and re-engagement (s 195).
+- Time limits: consultation must begin in good time and at least 30 days before the first dismissal takes effect for 20-99 redundancies, and at least 45 days for 100 or more (s 188(1A)).
+- With whom: the recognised trade union, or elected employee representatives where there is none (s 188(1B)). Consultation must cover ways of avoiding the dismissals, reducing the numbers and mitigating consequences, with a view to reaching agreement, and the employer must provide the written information listed in s 188(4) (reasons, numbers and descriptions, selection method, how dismissals will be carried out, how any payment will be calculated, and agency worker information).
+- Notification: the employer must notify the Secretary of State on form HR1 (s 193) before the first dismissal (at least 30 days before for 20-99; 45 days before for 100 or more). Failure is a criminal offence.
+- Protective award (s 189): if the employer fails to comply, the tribunal may make a protective award of up to 180 days' pay per affected employee (increased from 90 days by s 30 of the Employment Rights Act 2025, for dismissals taking effect on or after 6 April 2026: SI 2026/323 reg 5); the tribunal sets the length having regard to the seriousness of the default (see *Susie Radin* below).
+- "Special circumstances" defence (s 188(7)): employers must still do whatever is reasonably practicable, so insolvency alone is not enough.
+- Reform: ERA 2025 s 29 adds a second trigger: an employer proposing to dismiss at least a "threshold number" of employees across the business in 90 days (s 195A, to be set by regulations), alongside the establishment test. The threshold regulations had not been made by November 2026; the government timeline (updated 5 November 2026) gives April 2027 for the organisation-wide threshold.
+
+**Pregnancy and family leave (the 2023 Act).** Protection from Redundancy (Pregnancy and Family Leave) Act 2023 inserted ERA Part 5B (s 49D) giving power to make regulations. The Maternity Leave, Adoption Leave and Shared Parental Leave (Amendment) Regulations 2024 (SI 2024/264), effective for employers informed of a pregnancy on or after 6 April 2024, amend reg 10 of the Maternity and Parental Leave etc Regulations 1999 so that, where it is not practicable by reason of redundancy to continue to employ the employee under her existing contract, she has priority (a right to be offered any suitable alternative vacancy before others) during: (a) the "protected period of pregnancy", which begins when the employer is informed of the pregnancy and ends when statutory maternity leave starts (or two weeks after the end of the pregnancy for a woman with no right to leave); (b) the maternity leave period; and (c) an "additional protected period" that starts when maternity leave ends and runs until 18 months after the child's birth (measured from the actual birth date if the employer was notified of it, otherwise the expected week of childbirth). Equivalent protection applies to adoption leave (18 months from placement) and to shared parental leave of six or more consecutive weeks, under the same 2024 Regulations' amendments to the adoption and shared parental leave regulations. The alternative vacancy must be suitable and appropriate and on terms not substantially less favourable. Failure to offer it makes the dismissal automatically unfair (reg 20 of the 1999 Regulations).
+
+## Key authorities
+- *Murray v Foyle Meats Ltd* [1999] ICR 827 (HL): the s 139(1)(b) question is a two-stage one, factual (have the requirements for employees to do work of a particular kind ceased or diminished?) and causal (was dismissal attributable to that?); the House of Lords rejected the "contract" and "function" tests, so it does not matter that the employee's own contractual duties still exist or that other employees may be moved into their role, provided the dismissal is attributable to the diminished need for that kind of work.
+- *Williams v Compair Maxam Ltd* [1982] ICR 156 (EAT, Browne-Wilkinson J): principles of a fair redundancy process in a unionised setting: give as much warning as possible, consult, agree objective selection criteria, check selection against them, consider alternatives. Later cases treat these as guidance, not rules.
+- *Polkey v AE Dayton Services Ltd* [1988] AC 344 (HL): lack of warning and consultation normally makes a redundancy dismissal unfair, unless the employer could reasonably have concluded that it would be useless; compensation may be reduced for the chance that dismissal would have occurred anyway.
+- *British Aerospace plc v Green* [1995] ICR 1006 (CA): tribunals should not microscopically review selection scoring; the employer must set up a fair system and apply it reasonably.
+- *USDAW v WW Realisation 1 Ltd* (Case C-80/14) (CJEU, 2015) (the Woolworths case): under the Collective Redundancies Directive "establishment" means the local unit to which the redundant workers are assigned, and the Directive does not require dismissals across all of an employer's establishments to be aggregated. This confirmed that the existing UK "establishment" test in TULRCA s 188 was compatible with EU law; the 2025 Act supplements it with the threshold-number trigger.
+- *Susie Radin Ltd v GMB* [2004] EWCA Civ 180 (CA): approach to the protective award; the tribunal's starting point is the maximum period, reduced where the employer's default is less serious, with a punitive rather than compensatory character.
+
+## Applying it
+1. Is there a redundancy under s 139? Apply Murray: has the requirement for work of a particular kind diminished, and was the dismissal caused by that? If not, consider whether the label is a cover for conduct or capability.
+2. Individual rights: qualifying service for payment (two years), calculation, any offer of alternative work (statutory trial period and unreasonable refusal).
+3. Fairness: warning, consultation, pool, criteria, scoring, alternatives, appeal. Apply Polkey to compensation.
+4. Collective duty: count proposed dismissals at one establishment within 90 days; apply 30/45 days; HR1; reps; protective award up to 180 days.
+5. Protected groups: check for pregnancy, maternity leave and the 18-month additional protected period (SI 2024/264); priority for suitable vacancies; automatic unfairness; sex and maternity discrimination under EqA s 18 and s 13.
+6. Other protections: whistleblowing, trade union reasons, age or disability discrimination in the selection criteria (for instance, sickness absence scoring may be discriminatory arising from disability).
+7. Everyday question: "My employer says my job is gone; what do I get?" Answer: statutory redundancy pay if two years' service, notice pay, holiday pay and a fair process; ask about alternatives and check whether a pregnancy or family-leave priority applies.
+
+Traps: counting the 20 at the whole company when the test is per establishment (but see the reform); treating the 30-day period as running from the dismissal notices; forgetting HR1; applying the 2025 Act's six-month unfair dismissal rule to a dismissal before 2027.
+
+## Debates and reform
+- Whether "establishment" is a proper trigger for modern businesses with remote and multi-site work; the 2025 Act's threshold-number route is the response.
+- Whether the maximum protective award should be longer, and whether a failure to consult should give a right to reinstatement or interim relief.
+- The 2023 Act's protection arose from evidence of high redundancy rates for women returning from maternity leave; the Equality and Human Rights Commission and others continue to monitor outcomes.
+
+## Recent changes and points to check
+- 6 April 2024: extended redundancy protection for pregnancy and family leave (SI 2024/264).
+- 6 April 2026: protective award maximum raised to 180 days for dismissals taking effect on or after that date (Employment Rights Act 2025 s 30); week's pay limit £751 (SI 2026/310).
+- Organisation-wide collective consultation threshold (s 195A): regulations not yet made; government timeline gives April 2027.

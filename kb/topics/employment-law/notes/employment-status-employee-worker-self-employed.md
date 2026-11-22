@@ -1,0 +1,64 @@
+---
+title: Employment status - employee, worker and self-employed
+topic: employment-law
+authority: notes
+written: 2026-11-24
+verified_against:
+  - "Statutory definitions (ERA 1996 s 230(1), (2), (3); EqA 2010 s 83(2)): in the knowledge-base raw files for ERA 1996 and EqA 2010, and legislation.gov.uk"
+  - "Employment Rights Act 2025 does not create a single worker status: text of the Act held in the knowledge-base raw file (no provision replacing s 230)"
+  - "Supreme Court decisions Autoclenz, Pimlico Plumbers, Uber v Aslam and IWGB v CAC (Deliveroo): supremecourt.uk judgment summaries"
+  - "Employment status consultation (published 14 October 2026, closes 8 January 2027): https://www.gov.uk/government/consultations/makework-pay-employment-status-reform-and-protections-for-the-self-employed"
+---
+# Employment status - employee, worker and self-employed
+
+## Overview
+UK employment law uses three main labels: employee, worker (the "limb (b)" category) and genuinely self-employed. Status decides which rights a person has: the full set (unfair dismissal, redundancy pay, statutory notice, family leave) belongs to employees; a narrower set (national minimum wage, paid holiday, working-time limits, protection from unlawful deductions, whistleblowing, the right to be accompanied) belongs to workers; the self-employed mostly have only discrimination and health and safety protection. Tribunals look at the reality of the relationship, not at the label in the contract. The Employment Rights Act 2025 did not replace this three-way structure. A government consultation published on 14 October 2026 (closing 8 January 2027) proposes targeted changes (less weight on personal service, a presumption of worker status) rather than an immediate move to a single worker status.
+
+## The law
+**Employee.** ERA 1996 s 230(1): an individual who has entered into or works under a contract of employment, defined in s 230(2) as a contract of service or apprenticeship, express or implied, oral or written.
+
+**Worker.** ERA 1996 s 230(3) has two limbs: (a) employees, and (b) individuals who work under any other contract (express or implied) by which they undertake to do or perform personally any work or services for another party whose status is not, by virtue of the contract, that of a client or customer of a profession or business undertaking carried on by the individual. The same wording appears in the National Minimum Wage Act 1998 and the Working Time Regulations 1998. The Equality Act 2010 s 83(2) uses a wider concept of "employment" (contract of employment, apprenticeship, or a contract personally to do work), so it is broader than s 230(3). Whistleblowing protection goes further again, through ERA s 43K (agency workers and certain NHS practitioners).
+
+**Self-employed.** A person who is in business on their own account, who can send a substitute or who is a client-facing independent contractor, falls outside both categories (but may still be a "worker" for some statutes if they fall under the EqA wide definition).
+
+**The tests for employee status.** Courts take a multi-factor approach:
+1. Is there a contract under which the individual agrees to provide work or skill personally (personal service)? A genuine, unfettered right to send a substitute is inconsistent with employment, but a limited or conditional right of substitution does not necessarily destroy it.
+2. Is there mutuality of obligation: an obligation to offer work and an obligation to accept it, at least during the periods when work is being done? Where there is no obligation either way between assignments, the contract may only exist during each engagement (the "umbrella contract" question).
+3. Does the putative employer have a sufficient degree of control (what is done, how, when, where)? It is a necessary but not sufficient condition.
+4. Are the other terms consistent with a contract of service? Relevant: who provides equipment, who bears the financial risk, whether the individual is integrated into the organisation, whether there is a right to holiday and sick pay, whether tax is deducted under PAYE, and how the parties described their relationship.
+
+**The "worker" test.** The questions are: (a) a contract; (b) personal performance; and (c) the other party is not a client or customer of the individual's business. Subordination is not a freestanding requirement (*Bates van Winkelhof*), but since *Uber* the protective purpose (subordination and dependency on the other party) guides how the test is applied.
+
+**Substance over form.** If a written agreement does not reflect how the relationship actually operates, the tribunal looks at the true agreement, which is found in all the circumstances (including the parties' conduct), and the written term is not decisive where it was not meant to be acted on. This is the purposive approach in the cases below, based on the idea that the statutes are protective and that the parties' relative bargaining power matters.
+
+## Key authorities
+- *Ready Mixed Concrete (South East) Ltd v Minister of Pensions and National Insurance* [1968] 2 QB 497 (QBD, MacKenna J): lorry drivers with their own vehicles. Held: a contract of service exists if (i) the worker agrees to provide work and skill in return for remuneration, (ii) agrees expressly or impliedly to be subject to the other's control to a sufficient degree, and (iii) other provisions are consistent with a contract of service. The three-part test remains the foundation of the modern law.
+- *Carmichael v National Power plc* [1999] 1 WLR 2042 (HL): casual tour guides under "as and when required" terms. Held: no mutuality of obligation outside the periods of actual work, so no contract of employment during the gaps; a classic limit on employee status for casual workers.
+- *Autoclenz Ltd v Belcher* [2011] UKSC 41 (UK Supreme Court): car valeters whose written contracts said they could provide substitutes and were not obliged to work. Held: the question is what the parties actually agreed, found in the written terms and the practical reality; tribunals should disregard terms that do not reflect the true agreement. The tribunal's finding that the valeters were employees (and therefore also workers) was upheld.
+- *Pimlico Plumbers Ltd v Smith* [2018] UKSC 29 (UK Supreme Court): plumber with a van and a heavy contractual regime. Held: a limited right of substitution (only to another Pimlico operative) was consistent with personal service; Mr Smith was a limb (b) worker and was not working for a client or customer.
+- *Bates van Winkelhof v Clyde & Co LLP* [2014] UKSC 32 (UK Supreme Court): an equity member of an LLP was a limb (b) worker under ERA s 230(3)(b) and so protected as a whistleblower; subordination may be a helpful indicator but is not a freestanding requirement of worker status.
+- *Uber BV v Aslam* [2021] UKSC 5 (UK Supreme Court): Uber drivers. Held: the drivers were limb (b) workers; the contractual terms were drafted by Uber and, being a protective statutory context, were not decisive; the factors (Uber set fares, controlled contract terms, rating and allocation, and restricted drivers' ability to build their own customer base) pointed to subordination. Working time ran while the driver was logged in, within the territory, and ready and willing to accept trips.
+- *R (IWGB) v Central Arbitration Committee* (*Roofoods Ltd t/a Deliveroo*) [2023] UKSC 43 (UK Supreme Court): Deliveroo riders. Held: the riders were not in an "employment relationship" for the purposes of Art 11 ECHR (and so not workers for TULRCA recognition purposes), because the Central Arbitration Committee had found a genuine and virtually unlimited right of substitution, used in practice, so there was no obligation of personal service; the Art 11 right to bargain collectively therefore did not apply on those facts. The result turns on the substitution right as operated in practice, not on a general view of the gig economy.
+- *Windle v Secretary of State for Justice* [2016] EWCA Civ 459 (Court of Appeal): freelance tribunal interpreters taken on assignment by assignment. Held: in deciding whether the interpreters were in "employment" (under the EqA) during each assignment, the tribunal was entitled to take into account the absence of any obligation to offer or accept work between assignments, as pointing towards independence; they were not in "employment" within EqA s 83(2). (The "irreducible minimum of mutual obligation" phrase itself comes from earlier cases such as *Nethermere (St Neots) Ltd v Gardiner* [1984] ICR 612 and *Carmichael*.)
+- *Stringfellow Restaurants Ltd v Quashie* [2012] EWCA Civ 1735 (Court of Appeal): lap dancer was not an employee on the facts (no obligation to attend, no obligation to provide work), a reminder that a lack of mutuality can defeat employment status even where control is strong.
+
+## Applying it
+1. Identify the statute and the right being claimed, because the status threshold differs (employee for unfair dismissal and redundancy; worker for holiday pay, minimum wage, deductions, whistleblowing; wide EqA "employment" for discrimination).
+2. Ask first: is there a contract at all in the relevant period (mutuality in casual work)? Then personal service (substitution clause: is it real, how is it used, is approval needed?). Then control. Then the wider picture: equipment, financial risk, integration, tax and benefits, exclusivity, length of relationship.
+3. Compare the written terms with how the relationship runs in practice (Autoclenz). If the claimant has signed a "contractor" agreement, show how the practical reality differs: no actual substitution, no right to turn work down without penalty, fixed hours and rates, company uniform and branding, set processes.
+4. Choose the correct conclusion: employee, limb (b) worker or genuinely self-employed. Where an intermediary (agency, umbrella company, personal service company) is involved, check whether a contract exists between the individual and the end user (rarely) and whether the agency worker has any rights under the Agency Workers Regulations 2010 (equal treatment after 12 weeks).
+5. Mention the consequences: what the person gains or loses at each level, and the tax angle (employment status for tax purposes is not identical in application, although the underlying cases are similar).
+6. Everyday question: "I am told I am self-employed but I work set hours for one firm; do I have rights?" Answer: the label does not decide it; the actual arrangements do; a person like this may be a worker (holiday pay, minimum wage) or an employee (unfair dismissal, redundancy pay); advise looking at control, substitution and who bears the risk, and consider Acas early conciliation.
+
+Common traps: relying on the label; treating control as the only factor; forgetting that "worker" is a different test from "employee" and that some statutes use a third (EqA); ignoring the consequences of intermediaries.
+
+## Debates and reform
+- Critics argue that the binary or ternary structure invites avoidance and that the case-by-case test is expensive and uncertain. The Taylor Review (2017) proposed renaming the middle category "dependent contractor" and aligning tax and employment tests. The 2018 government "Good Work Plan" consultation did not lead to legislation, and the 2025 Act did not change s 230.
+- The Labour government's 2024 "Plan to Make Work Pay" committed to consult on a single "worker" status. The consultation published on 14 October 2026 ("Make Work Pay: employment status reform and protections for the self-employed", closing 8 January 2027) keeps the existing categories for now, proposing less emphasis on personal service, a presumption of worker status and better enforcement, while restating a longer-term aim of a simpler framework. No legislation has been made.
+- The Deliveroo decision shows the limits of the "gig economy" reform that litigation alone can achieve: platform design (a real substitution right) can take workers outside protection.
+- Platform work regulation in the EU (Platform Work Directive 2024) adopts a presumption of employment; the UK has no equivalent.
+
+## Recent changes and points to check
+- The Employment Rights Act 2025 (Royal Assent 18 December 2025) leaves ERA 1996 s 230 unchanged. Some of its rights took effect on 6 April 2026 (day-one paternity and unpaid parental leave for employees; statutory sick pay from the first day of sickness with no lower earnings limit), so the status question remains central.
+- The Agency Workers Regulations 2010 and the Employment Rights Act 2025 (extending regulation of employment businesses to umbrella companies, s 36; government timeline December 2027) are relevant if agency or umbrella arrangements are involved.
+- Employment status consultation (14 October 2026 to 8 January 2027): proposals only; no change in the law yet.

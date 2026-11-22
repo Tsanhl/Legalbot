@@ -1,0 +1,59 @@
+# Legal bot configuration. Relative paths are relative to this file.
+paths:
+  law_root: "../Law and jobs/Law"     # originals (never modified)
+  kb: kb                                   # knowledge base: topics/<slug>/{raw,notes}, style/
+  indexes: data/indexes                    # generated, safe to delete + rebuild
+  db: data/conversations.sqlite3           # conversation store
+  debug: debug                             # logs/ + issues/ + playbook
+  review_queue: improvement               # user_feedback/, knowledge_gaps/, daily_review/ (by date)
+  eval: eval
+
+grpc:
+  host: 127.0.0.1
+  port: 50061
+
+chat:
+  host: 127.0.0.1
+  port: 8800
+
+conversation:
+  window_turns: 10          # sliding window sent to query rewrite + prompt
+
+retrieval:
+  bm25_top_k: 20
+  vector_top_k: 20
+  fused_top_k: 32           # candidates sent to reranker
+  final_top_k: 8            # sections that reach the prompt
+  max_per_doc: 2            # diversity cap per source file
+  max_per_statute: 4        # an Act may supply up to 4 sections
+  top_k_by_intent: {essay: 14, problem_question: 14, general: 8}
+  max_followed_cases: 4
+  rrf_k: 60
+  use_vector: true          # needs sentence-transformers + faiss
+  use_reranker: true        # cross-encoder, intent-aware second stage (FM2 fix)
+  embedding_model: BAAI/bge-small-en-v1.5
+  reranker_model: BAAI/bge-reranker-base
+  chunk_chars: 1500
+  chunk_overlap: 200
+  min_confidence: 0.45      # >= : answer from the knowledge base. Below: answer anyway, flagged (see web_below)
+  web_below: 0.30           # < : little in the KB -> answer from official web sources (claude_cli / anthropic)
+  calibration:              # re-tune on the real eval set (step 4)
+    rerank_logit_range: [-10.0, 0.0]
+    vector_sim_range: [0.55, 0.85]
+
+llm:
+  default_provider: claude_cli   # anthropic | claude_cli | codex_cli | mock (mock = sources only, no answer)
+  providers:
+    anthropic:
+      model: claude-opus-5-5
+      max_tokens: 64000
+      effort: high
+      server_fallbacks: true
+    claude_cli:
+      binary: claude
+      model: opus
+      timeout_sec: 900
+    codex_cli:
+      binary: codex             # on PATH; reinstall with: npm i -g @openai/codex
+      model: ""
+      timeout_sec: 900

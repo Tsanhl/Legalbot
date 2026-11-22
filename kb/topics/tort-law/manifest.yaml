@@ -1,0 +1,29 @@
+slug: tort-law
+name: Tort Law
+aliases:
+- tort
+- negligence
+- duty of care
+- nuisance
+- occupiers liability
+- psychiatric injury
+- causation
+- remoteness
+- vicarious liability
+- defamation
+- personal injury
+- neighbour tree
+- roots
+- misuse of private information
+- nervous shock
+jurisdiction:
+- UK
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-24'
+counts:
+  legislation: 21
+  secondary: 2
+  case_law: 13
+  textbook: 31
+  lecture: 12

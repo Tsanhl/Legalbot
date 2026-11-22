@@ -1,0 +1,19 @@
+# Synonym / alias groups for BM25 query expansion (fix for FM1 keyword miss).
+# If any term in a group appears in the query, the other terms are added.
+groups:
+  - [dominant position, dominance, market power]
+  - [abuse of dominance, article 102, art 102, chapter ii prohibition]
+  - [anti-competitive agreement, cartel, article 101, art 101, chapter i prohibition]
+  - [breach of trust, breach of fiduciary duty]
+  - [negligence, duty of care]
+  - [defined benefit, final salary]
+  - [defined contribution, money purchase]
+  # everyday consumer wording -> statutory terms (Consumer Rights Act 2015, Part 1 Ch 2)
+  - [refund, money back, right to reject, short-term right to reject, final right to reject]
+  - [faulty, defective, broken, not working, satisfactory quality, fit for purpose, conform to the contract]
+  - [repair, replacement, repair or replacement]
+  - [shop, retailer, trader]
+  - [bought, buy, purchase, purchased, goods contract, sales contract]
+  - [landlord, lessor]
+  - [tenant, lessee]
+  - [deposit, tenancy deposit]

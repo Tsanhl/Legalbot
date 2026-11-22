@@ -1,0 +1,31 @@
+slug: private-international-law
+name: Private International Law
+aliases:
+- conflict of laws
+- private international law
+- choice of law
+- rome i
+- rome ii
+- brussels ia
+- jurisdiction
+- forum non conveniens
+- anti-suit injunction
+- recognition and enforcement
+- hague convention
+- foreign seller
+- cross-border
+- sue abroad
+- enforce judgment abroad
+jurisdiction:
+- UK
+- EU
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-24'
+counts:
+  legislation: 9
+  case_law: 74
+  textbook: 22
+  secondary: 26
+  lecture: 48
+  journal: 5

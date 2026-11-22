@@ -1,0 +1,22 @@
+slug: tax-law
+name: Tax Law
+aliases:
+- income tax
+- corporation tax
+- taxation
+- finance act
+- hmrc
+- revenue and customs
+- vat
+- capital gains tax
+- cgt
+- business asset disposal relief
+- 60-day return
+jurisdiction:
+- UK
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-24'
+counts:
+  legislation: 7
+  case_law: 1

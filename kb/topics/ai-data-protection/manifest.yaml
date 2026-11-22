@@ -1,0 +1,30 @@
+slug: ai-data-protection
+name: AI and Data Protection
+aliases:
+- gdpr
+- data protection
+- artificial intelligence
+- ai act
+- automated decision
+- profiling
+- uk gdpr
+- data protection act 2018
+- algorithm
+- scraping
+- facial recognition
+- web scraping
+- automated rejection
+jurisdiction:
+- UK
+- EU
+- US
+always_search: false
+last_updated: '2026-11-19'
+last_indexed: '2026-11-24'
+counts:
+  lecture: 3
+  journal: 4
+  secondary: 59
+  legislation: 14
+  textbook: 4
+  case_law: 5
