@@ -40,7 +40,7 @@ The five groups below are each tied to a "value statement".
 - We hold rights (entitlements with *waivable* benefits) that impose duties on others. Because the right-holder can waive the benefit, one can consent to being harmed.
 - This is the key contrast with duty-based theories: all duties owed to an individual are subject to that individual's will.
 - Not all humans are equal on this view: those able to waive duties (agents) count for more. Interests cannot be aggregated.
-- Alan Gewirth: all agents have rights to freedom and well-being, so a range of self-harming actions "ranging from smoking to suicide" must not be interfered with. Other examples given: Shaun Pattinson (who has written on every topic from this perspective) and Mary Anne Warren.
+- Alan Gewirth: all agents have rights to freedom and well-being, so a range of self-harming actions "ranging from smoking to suicide" must not be interfered with. Rights-based writers in medical law include Pattinson, who applies Gewirth's theory across the subject (*Medical Law and Ethics*), and Mary Anne Warren.
 
 **(4) Virtue ethics** – value statement: "what matters is whether an individual's character is virtuous".
 - The other theories are wrong to focus on conduct; what matters is whether character and motive are virtuous.
