@@ -40,3 +40,6 @@ eval/checkpoints/
 
 # private identifiers (university, term names, module codes, student IDs)
 kb/identifiers.local.txt
+
+# LinkedIn post images (local only)
+linkedin/
